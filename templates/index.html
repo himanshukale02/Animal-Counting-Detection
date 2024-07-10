@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-time Animal Detection</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-time Animal Detection and Counting</h1>
+        <div class="video-container">
+            <img src="{{ url_for('video_feed') }}" width="640" height="480" class="video-frame">
+        </div>
+    </div>
+</body>
+</html>

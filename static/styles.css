@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("/Users/apple/Downloads/Real-time-Object-Detection-with-OpenCV-Using-YOLO-main/static/forest.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.video-frame {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.video-frame:hover {
+    transform: scale(1.05);
+}
